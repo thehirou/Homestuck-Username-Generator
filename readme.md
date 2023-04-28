@@ -1,1 +1,1 @@
-https://thehirou.github.io/homestuck-username-generator
+https://thehirou.github.io/Homestuck-Username-Generator/
