@@ -2982,7 +2982,9 @@
 			const adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
 			const color = colors[Math.floor(Math.random() * colors.length)];
 			const wordDisplay = document.getElementById("word-display");
-			wordDisplay.innerHTML = `<span style="color:${color};">${adjective}${noun}</span>`;
+			const capitalizedNoun = noun.charAt(0).toUpperCase();
+			const capitalizedAdjective = adjective.charAt(0).toUpperCase();
+			wordDisplay.innerHTML = `<span style="color:${color};">${capitalizedAdjective}${capitalizedNoun}: ${adjective}${noun}</span>`;
 		}
 	</script>
 </body>
