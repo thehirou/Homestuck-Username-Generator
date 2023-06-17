@@ -3,6 +3,15 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Homestuck Username Generator</title>
+	  <script>
+    function playSound() {
+      var audio = new Audio('pesterchum.mp3');
+      audio.play();
+
+      // Add your desired previous action here
+      generateWords();
+    }
+  </script>
 	<style>
 		body {
 			background-color: #535353;
@@ -24,9 +33,9 @@
 			<h1>[Homestuck username generator] ====></h1>
 			<p id="word-display">Your Homestuck username is...</p>
 			<div class="break"></div>
-				<div class="button-border"> 
-					<button onclick="generateWords()">Generate</button>
-				</div>	
+			  <div class="button-border">
+				<button onclick="playSound()">Generate</button>
+			  </div>
 			<div class="break"></div>
 		</div>
 		</div>
